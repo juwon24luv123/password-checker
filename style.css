@@ -1,0 +1,66 @@
+body{
+    /* background: rgba(128, 128, 128, 0.342); */
+    background: linear-gradient(to right, white, blue);
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    /* margin: 0 auto; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    box-shadow:  0 0 3px 3px rgba(0, 0, 0, 0.3);
+    background: #fff;
+
+    
+}
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+}
+.input{
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 10px;
+}
+.label{
+    padding: 5px;
+    border: 5px;
+}
+.button{
+    padding: 7px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 100px;
+    margin: 0 auto;
+    color: #fff;
+    background: blue;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+}
+.button:hover{
+    cursor: pointer;
+    color: #000;
+    background: #fff;
+
+}
+.mybutton{
+    display: flex;
+    margin-top: 20px;
+
+}
